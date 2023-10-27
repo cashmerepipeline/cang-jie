@@ -10,9 +10,9 @@ readme = "README.MD"
 keywords = ["search", "tokenizer", "Chinese", "tantivy"]
 
 [dependencies]
-tantivy = "0.20.2"
+tantivy = {git = "https://github.com/quickwit-oss/tantivy.git"}
 jieba-rs = { version = "0.6.8", default-features = false }
-log = "0.4.20"
+log = "0.4"
 
 [dev-dependencies]
 jieba-rs = { version = "0.6.8", default-features = true }
